@@ -22,8 +22,8 @@ const Team = () => {
         },
       ];
   return (
-    <div className='bg-[#F1FFE9] w-screen h-screen py-[42px] flex flex-col justify-start items-center'>
-        <h1 className='text-[35px] font-medium leading-[50px]'>
+    <div className='font-rubik bg-[#F1FFE9] w-screen h-screen py-[42px] flex flex-col justify-start items-center'>
+        <h1 className='text-[35px] font-semibold leading-[50px]'>
             Our Team
         </h1>
         <h1 className='text-[16px] leading-5 font-normal'>

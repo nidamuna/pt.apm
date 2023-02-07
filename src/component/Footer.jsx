@@ -75,7 +75,7 @@ const Footer = () => {
       ];
 
   return (
-    <div className='w-screen bg-gradient-to-b from-white to-[#5DB7BE] py-[70px] px-[150px]'>
+    <div className='font-rubik w-screen bg-gradient-to-b from-white to-[#5DB7BE] py-[70px] px-[150px]'>
         <div className='grid grid-cols-2'>
             <div>
                 <img src={Logo} alt='AKUSARA PRIMA MEDICATECH' />

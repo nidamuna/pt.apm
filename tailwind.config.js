@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: {
         'hero-image': 'url("./assets/Hero-bg.png")',
       },
+      fontFamily: {
+        'rubik': ['Rubik']
+      },
     },
   },
   plugins: [],

@@ -68,8 +68,8 @@ const Service = () => {
         },
       ];
   return (
-    <div className='bg-[#D3E8EF] w-screen flex flex-col justify-center items-center px-[112px] py-[35px]'>
-        <h1 className='text-[#0B132A] font-medium text-[35px] leading-[50px]'>
+    <div className='font-rubik bg-[#D3E8EF] w-screen flex flex-col justify-center items-center px-[112px] py-[35px]'>
+        <h1 className='text-[#0B132A] font-semibold text-[35px] leading-[50px]'>
             Our Service
         </h1>
         <span className='w-[555px] text-[16px] leading-5 font-normal text-[#4F5665] text-center mt-3 mb-[58px]'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Herosection = () => {
   return (
-    <div className='bg-hero-image bg-no-repeat bg-cover w-screen h-[708px] px-[183px] py-[122px]'>
+    <div className='font-rubik bg-hero-image bg-no-repeat bg-cover w-screen h-[708px] px-[183px] py-[122px]'>
         <h1 className='text-[#0B132A] font-medium text-[60px] leading-[70px]'>
             WELCOME TO
         </h1>

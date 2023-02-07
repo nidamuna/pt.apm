@@ -3,7 +3,7 @@ import Direc from '../assets/direktur.png'
 
 const Director = () => {
   return (
-    <div className='w-screen h-screen px-[122px] flex items-center justify-center bg-white'>
+    <div className='font-rubik w-screen h-screen px-[122px] flex items-center justify-center bg-white'>
         <div className='grid grid-cols-2 gap-[100px] justify-start items-center'>
             <img alt='/' src={Direc} className='' />
             <div className='text-[16px] text-[#4F5665] font-normal leading-6'>

@@ -24,7 +24,7 @@ const Navbar = () => {
       ];
   return (
     <>
-        <div className='w-screen h-[42px] bg-[#5DB7BE] pr-[84px] px-[9px] flex justify-end items-center '>
+        <div className='font-rubik w-screen h-[42px] bg-[#5DB7BE] pr-[84px] px-[9px] flex justify-end items-center '>
             <div className="flex flex-row">
                 {links.map((link) => (
                     <a
