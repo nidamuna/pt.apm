@@ -75,18 +75,18 @@ const Footer = () => {
       ];
 
   return (
-    <div className='font-rubik w-screen bg-gradient-to-b from-white via-white to-[#5DB7BE] py-[70px] px-[150px]'>
-        <div className='grid grid-cols-2'>
+    <div id='footer' className='overflow-hidden font-rubik w-screen bg-gradient-to-b from-white via-white to-[#5DB7BE] py-[70px] px-[50px] md:px-[150px]'>
+        <div className='grid grid-cols-1 md:grid-cols-2'>
             <div>
-                <img src={Logo} alt='AKUSARA PRIMA MEDICATECH' />
-                <h1 className='w-[340px] font-normal text-[16px] mt-[22px] leading-[30px] text-[#4F5665]'>
+                <img src={Logo} alt='AKUSARA PRIMA MEDICATECH' className='-ml-[35px] md:ml-0' />
+                <h1 className='w-full md:w-[340px] font-normal text-[16px] mt-[22px] leading-[30px] text-[#4F5665]'>
                     Layanan dan Pelatihan Kesehatan dengan berbasis teknologi yang terus dikembangkan.
                 </h1>
                 <div className='flex flex-row mt-[30px]'>
-                    {links.map((link) => (
+                    {links.map((link, index) => (
                         <a
                             className="mr-5"
-                            key={link.name}
+                            key={index}
                             href={link.link}
                         >
                             <img
@@ -100,13 +100,13 @@ const Footer = () => {
                     ©2023AKUSARAPM
                 </p>
             </div>
-            <div className='grid grid-cols-3 mt-[108px]'>
+            <div className='grid grid-cols-3 mt-14 md:mt-[108px] gap-5'>
                 <div>
                     <h1 className='text-[#0B132A] font-medium mb-5 text-[18px] leading-[30px]'>
                         Product
                     </h1>
-                    {product.map((item) => (
-                        <p className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
+                    {product.map((item, index) => (
+                        <p key={index} className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
                             {item.name}
                         </p>
                     ))}
@@ -115,8 +115,8 @@ const Footer = () => {
                     <h1 className='text-[#0B132A] font-medium mb-5 text-[18px] leading-[30px]'>
                         Engage
                     </h1>
-                    {engage.map((item) => (
-                        <p className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
+                    {engage.map((item, index) => (
+                        <p key={index} className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
                             {item.name}
                         </p>
                     ))}
@@ -125,8 +125,8 @@ const Footer = () => {
                     <h1 className='text-[#0B132A] font-medium mb-5 text-[18px] leading-[30px]'>
                         Earn Money
                     </h1>
-                    {money.map((item) => (
-                        <p className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
+                    {money.map((item, index) => (
+                        <p key={index} className='mb-[10px] text-[#4F5665] font-normal text-[16px] leading-[30px]'>
                             {item.name}
                         </p>
                     ))}
