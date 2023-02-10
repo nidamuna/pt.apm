@@ -81,10 +81,10 @@ const Service = () => {
         </span>
         <div 
             ref={carousel}
-            className='w-full flex snap-x gap-6 scroll-p-5 snap-mandatory snap-a overflow-x-scroll no-scrollbar pb-14 justify-center items-center'>
+            className='w-full flex snap-x gap-6 scroll-p-5 snap-mandatory overflow-x-scroll no-scrollbar pb-14 justify-start items-center'>
               <div className='snap-center snap-always shrink-0'>
                 <div className='shrink-0 w-[22px] h-[229px] rounded-[10px] bg-white/0 flex flex-col justify-center items-center mr-6 last:mr-0'>
-                  jj
+                  
                 </div>
               </div>
             {service.map((service, index) => (
